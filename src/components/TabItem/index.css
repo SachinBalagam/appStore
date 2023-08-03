@@ -1,1 +1,19 @@
 /* Write your CSS here */
+.each-tab {
+  list-style-type: none;
+  margin-right: 5px;
+}
+.tab-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #7b8794;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid #7b8794;
+}
+.active {
+  border-bottom: 1px solid #2563eb;
+  color: #2563eb;
+}

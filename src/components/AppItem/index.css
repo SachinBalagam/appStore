@@ -1,1 +1,20 @@
 /* Write your CSS here */
+.each-app {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: #ffffff;
+  width: 180px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.app-logo {
+  width: 100px;
+}
+.app-title {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+}
